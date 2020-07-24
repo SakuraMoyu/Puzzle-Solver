@@ -139,5 +139,5 @@ def main(target_board=None, movement=3):
                 print("Shift column on " + col_string[(math.floor(move/10))] + " direction by " + str(move % 10) + " tiles outwards.")
             elif move > 100:
                 move = move - 100
-                print("Rotate " + row_string[math.floor(move/20)+ 1] + " by " + str(move % 20) + " tiles anticlockwise.")
+                print("Rotate " + row_string[math.floor(move/20)] + " by " + str(move % 20) + " tiles anticlockwise.")
 
